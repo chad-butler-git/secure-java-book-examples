@@ -1,3 +1,12 @@
+
+.project
+.setings/
+*/target/*
+*/target/**
+/*.project
+/.settings
+workspace.code-workspace
+
 # Compiled class file
 *.class
 
@@ -9,6 +18,7 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
 
 # Package Files #
 *.jar
