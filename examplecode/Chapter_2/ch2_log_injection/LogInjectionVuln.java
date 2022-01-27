@@ -1,4 +1,4 @@
-package ch1_log_injection;
+package ch2_log_injection;
 
 /**
 * WARNING: This is a vulnerable code example that should not be used

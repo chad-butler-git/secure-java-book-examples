@@ -1,4 +1,4 @@
-package ch1_log_injection;
+package ch2_log_injection;
 
 import java.util.logging.Logger;
 import java.util.regex.Pattern;

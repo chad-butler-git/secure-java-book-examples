@@ -1,4 +1,4 @@
-package ch1_log_injection;
+package ch2_log_injection;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

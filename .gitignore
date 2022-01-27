@@ -1,11 +1,13 @@
 
 .project
 .setings/
+.classpath
 */target/*
 */target/**
 /*.project
 /.settings
 workspace.code-workspace
+
 
 # Compiled class file
 *.class
