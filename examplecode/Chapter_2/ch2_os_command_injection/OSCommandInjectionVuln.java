@@ -1,4 +1,4 @@
-package ch1_os_command_injection;
+package ch2_os_command_injection;
 
 /**
 * WARNING: This is a vulnerable code example that should not be used
