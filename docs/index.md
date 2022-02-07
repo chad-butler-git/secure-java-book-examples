@@ -6,5 +6,5 @@
  2. Chapter 2
  3. Chapter 3
   - Client Side Validation
-   - [HTML5 Form Validation](docs/ch3/html5_regex.html)
+   - [HTML5 Form Validation](ch3/html5_regex.html)
 
