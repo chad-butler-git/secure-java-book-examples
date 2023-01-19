@@ -35,6 +35,27 @@
       <artifactId>log4j-core</artifactId>
       <version>2.17.1</version>
     </dependency>
+        <!-- Argon2 password hashing -->
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-crypto</artifactId>
+      <version>5.4.5</version>
+    </dependency>
+
+    <!-- Argon2 algorithm implementation -->
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>1.70</version>
+      <scope>runtime</scope>
+    </dependency>
+    
+    <!-- Argon2 requirement -->
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.2</version>
+    </dependency>
   </dependencies>
 
   <build>
