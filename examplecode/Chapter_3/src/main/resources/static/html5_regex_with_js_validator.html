@@ -11,18 +11,18 @@
 </head>
 <body>
     <form>
-        <input type="text" id="username" name="username" pattern="^[0-9]{5,15}$">
+        <input type="text" id="account" name="account" pattern="^[0-9]{5,15}$">
       <button>Submit</button>
     </form>
     
     <script>
-        const username = document.getElementById("username");
+        const account = document.getElementById("account");
 
-        username.addEventListener("input", function (event){
-            if (username.validity.patternMismatch) {
-                username.setCustomValidity("Account number is invalid");
+        account.addEventListener("input", function (event){
+            if (account.validity.patternMismatch) {
+                account.setCustomValidity("Account number is invalid");
             } else {
-                username.setCustomValidity("");
+                account.setCustomValidity("");
             }
         });
     </script>
